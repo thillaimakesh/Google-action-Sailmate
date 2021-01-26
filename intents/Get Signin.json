@@ -1,0 +1,40 @@
+{
+  "id": "b27dc1e8-9558-40f3-ab3b-6ceff25f23c5",
+  "parentId": "d33069be-43cf-4474-a87c-4095bd4f24d7",
+  "rootParentId": "d33069be-43cf-4474-a87c-4095bd4f24d7",
+  "name": "Get Signin",
+  "auto": true,
+  "contexts": [
+    "StartSignin-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "StartSignin.StartSignin-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "actions_intent_SIGN_IN"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

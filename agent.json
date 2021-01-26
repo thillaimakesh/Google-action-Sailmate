@@ -1,0 +1,63 @@
+{
+  "description": "",
+  "language": "en",
+  "shortDescription": "",
+  "examples": "",
+  "linkToDocs": "",
+  "displayName": "workmate",
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": true,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "project": "status-teller-joswqy",
+    "welcomeIntentSignInRequired": true,
+    "startIntents": [
+      {
+        "intentId": "0b6fd826-9229-4b98-84d7-ffe428b3dc98",
+        "signInRequired": true
+      },
+      {
+        "intentId": "b8117c3f-b157-45d5-8c0c-817ddd42538b",
+        "signInRequired": true
+      }
+    ],
+    "systemIntents": [],
+    "endIntentIds": [],
+    "oAuthLinking": {
+      "required": false,
+      "providerId": "",
+      "authorizationUrl": "",
+      "tokenUrl": "",
+      "scopes": "",
+      "privacyPolicyUrl": "",
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "env": "",
+    "protocolVersion": "V2",
+    "autoPreviewEnabled": true,
+    "isDeviceAgent": false
+  },
+  "defaultTimezone": "Asia/Almaty",
+  "webhook": {
+    "url": "https://us-central1-workmate-bsgsqm.cloudfunctions.net/dialogflowFirebaseFulfillment",
+    "username": "",
+    "headers": {},
+    "available": true,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": true,
+    "cloudFunctionsInitialized": true
+  },
+  "isPrivate": true,
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "enableOnePlatformApi": true,
+  "onePlatformApiVersion": "v2",
+  "secondaryKey": "50ba94b6e74c478eaca1c3a9f422c65c",
+  "analyzeQueryTextSentiment": false,
+  "enabledKnowledgeBaseNames": [],
+  "knowledgeServiceConfidenceAdjustment": -0.4,
+  "dialogBuilderMode": false,
+  "baseActionPackagesUrl": ""
+}

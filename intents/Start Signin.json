@@ -1,0 +1,33 @@
+{
+  "id": "d33069be-43cf-4474-a87c-4095bd4f24d7",
+  "name": "Start Signin",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "StartSignin-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

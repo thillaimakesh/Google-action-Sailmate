@@ -1,0 +1,46 @@
+[
+  {
+    "id": "822e7ca0-456c-42a0-bfa8-520ff20b263c",
+    "data": [
+      {
+        "text": "good",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " bye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "75e749ed-969e-454c-aaf9-36efbb0d095a",
+    "data": [
+      {
+        "text": "bye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d12ba2b2-8261-4f71-9aa5-cb161f8fc8e9",
+    "data": [
+      {
+        "text": "cancel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
